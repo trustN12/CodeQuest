@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class', // Change this to 'class' for manual theme switching
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
