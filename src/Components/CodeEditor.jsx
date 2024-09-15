@@ -205,7 +205,7 @@ const CodeEditor = () => {
           </button>
 
           <select
-            className="p-2 cursor-pointer bg-gradient-to-r from-purple-700 to-slate-900 text-white rounded shadow-md border border-t-purple-700 focus:outline-none"
+            className="p-2 cursor-pointer bg-gradient-to-r from-purple-700 to-slate-900 text-white rounded shadow-md border border-t-purple-700 focus:outline-none  appearance-none"
             value={editorTheme}
             onChange={handleThemeChange}
             style={glow}
